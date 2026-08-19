@@ -2,113 +2,196 @@
 
 ### Bioinformatics undergraduate @ XJTLU · graduating in 2027
 
-I spend a slightly unreasonable amount of time asking proteins:
+I am interested in how **small molecular changes become larger biological consequences**—and how we can study them with structures, models, simulations, and biological data.
 
-> **“Okay… but what exactly changed at the interface?”** 🧩
-
-Most days, that means moving between protein structures, geometric learning, molecular simulations, and enough terminal windows to qualify as interior decoration. I am especially interested in how mutations and post-translational modifications reshape protein–protein interactions—and how computation can make those changes measurable.
+Most days, that means moving somewhere between protein interfaces, machine learning, molecular modelling, statistical genomics, and a terminal window that has been open for slightly too long.
 
 ```python
 xiyao = {
-    "currently": "following small molecular changes to their larger consequences",
-    "often_open": ["PyTorch", "PyMOL", "RStudio", "one terminal too many"],
-    "research_style": "build it, test it, inspect the strange cases",
-    "away_from_keyboard": "barebow archery 🏹",
+    "main_quest": "turn biological 'hmm...' into computational 'let's check'",
+    "usually_open": ["PyTorch", "PyMOL", "RStudio", "one terminal too many"],
+    "research_style": "build → test → doubt → inspect → repeat",
+    "side_quest": "barebow archery 🏹",
+    "current_status": "probably waiting for something on HPC",
 }
 ```
 
 <p>
   <a href="mailto:Xiyao.Chen22@student.xjtlu.edu.cn"><img src="https://img.shields.io/badge/say_hello-academic_email-173B3F?style=flat-square&logo=gmail&logoColor=white" alt="Academic email" /></a>
   <a href="https://github.com/Ci-yo?tab=repositories"><img src="https://img.shields.io/badge/browse_the-lab_notebook-24292F?style=flat-square&logo=github&logoColor=white" alt="Research repositories" /></a>
+  <a href="https://xi-yo.shinyapps.io/TME_2255737/"><img src="https://img.shields.io/badge/open_the-Shiny_app-276DC3?style=flat-square&logo=rstudio&logoColor=white" alt="Shiny app" /></a>
 </p>
+
+---
 
 ## My research fingerprint 🧬
 
+Not quite one field, not quite five either. These are the ideas that keep finding their way back into my projects.
+
 <table>
 <tr>
-<td width="52%" valign="top">
-
-<h3>🔬 By field</h3>
-
-<p><strong>Core signal</strong><br>
-<code>structural bioinformatics</code> · <code>protein interfaces</code></p>
-
-<p><strong>Methods that keep appearing</strong><br>
-<code>geometric learning</code> · <code>molecular dynamics</code> · <code>statistical modelling</code></p>
-
-<p><strong>Research side quests</strong><br>
-<code>transcriptomics</code> · <code>microbiomes</code> · <code>environmental bioinformatics</code></p>
-
-<p><strong>Things I like to build</strong><br>
-<code>reproducible pipelines</code> · <code>interactive research tools</code></p>
-
+<td align="center" width="33%" valign="top">
+  <img src="assets/research/protein-backbone.svg" width="56" alt="Stylised protein backbone" /><br><br>
+  <b>Structural Bioinformatics</b><br>
+  <sub>protein surfaces · PPI<br>variants · PTMs</sub>
 </td>
-<td width="48%" valign="top">
-
-<h3>💻 By code</h3>
-
-<a href="https://github.com/Ci-yo?tab=repositories">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Ci-yo&amp;theme=github_dark&amp;animation=load&amp;duration=2.4&amp;exclude_repos=mall" alt="Automatically detected languages across Ci-yo's public repositories" width="100%" />
-</a>
-
-<sub>Read automatically from my public repositories—so the fingerprint changes when the work changes.</sub>
-
+<td align="center" width="33%" valign="top">
+  <img src="assets/research/biomolecular-ml.svg" width="56" alt="Connected nodes for biomolecular machine learning" /><br><br>
+  <b>Biomolecular ML</b><br>
+  <sub>representation learning<br>geometric learning</sub>
+</td>
+<td align="center" width="33%" valign="top">
+  <img src="assets/research/molecular-modelling.svg" width="56" alt="Molecular modelling and force vectors" /><br><br>
+  <b>Molecular Modelling</b><br>
+  <sub>molecular dynamics<br>structure analysis</sub>
 </td>
 </tr>
 </table>
 
-<details>
-<summary><b>🔎 Decode the language signal</b></summary>
+<table>
+<tr>
+<td align="center" width="50%" valign="top">
+  <img src="assets/research/statistical-genomics.svg" width="56" alt="DNA helix for statistical genomics" /><br><br>
+  <b>Statistical Genomics</b><br>
+  <sub>m6A · RNA<br>transcriptomics</sub>
+</td>
+<td align="center" width="50%" valign="top">
+  <img src="assets/research/benchmarking.svg" width="56" alt="Bar chart and check mark for benchmarking" /><br><br>
+  <b>Benchmarking &amp; Data Science</b><br>
+  <sub>cross-technology comparison<br>evaluation · calibration</sub>
+</td>
+</tr>
+</table>
 
-| Language / format | What it usually means in my repositories |
+<p align="center">
+  <code>reproducibility</code> · <code>uncertainty</code> · <code>fair evaluation</code> · <code>biological interpretation</code>
+</p>
+
+<p align="center"><sub>Five boxes, one person, and a statistically unsafe number of open tabs.</sub></p>
+
+---
+
+## What I'm exploring these days 🔬
+
+### 🧩 Molecular structure & interaction
+
+I am interested in how **local geometric and chemical perturbations reshape biomolecular interactions**, and how structural representations can capture changes that are easy to miss when looking only at sequence.
+
+### 🧪 Variants, PTMs & molecular motion
+
+Mutations and post-translational modifications are tiny edits with occasionally dramatic opinions.
+
+I am exploring how structural modelling, machine learning, and molecular dynamics can help connect those edits to changes in molecular behaviour.
+
+### 🧬 m6A & statistical genomics
+
+On the genomics side, I work with **m6A epitranscriptomic data and cross-technology benchmarking**, especially what happens when different experimental technologies do not tell exactly the same story.
+
+Which, inconveniently, is often where things become scientifically interesting.
+
+### 📐 Models, benchmarks & suspiciously good numbers
+
+I like predictive models. I also like asking whether the train/test split was fair, whether the labels mean what we think they mean, whether the result survives another dataset, and why that one case is behaving strangely.
+
+**A good score is welcome. A believable reason is better.**
+
+---
+
+## Languages found in the wild 💻
+
+<p align="center">
+  <a href="https://github.com/stats-organization/github-stats-extended">
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ci-yo&layout=compact&langs_count=6&exclude_repo=mall&hide_border=true&theme=github_dark" alt="Language percentages across Ci-yo's public repositories" />
+  </a>
+</p>
+
+<p align="center"><sub>Repository composition, not a scientifically validated measurement of how well I speak Python.</sub></p>
+
+<details>
+<summary><b>🔎 What the languages are usually doing</b></summary>
+
+| Language / format | What it tends to be doing |
 |---|---|
-| 🐍 **Python** | Protein representations, machine learning, structural workflows, and data wrangling that was “definitely going to be quick.” |
-| 📊 **R** | Statistical genomics, biological visualisation, reproducible analysis, and Shiny applications. |
-| 📓 **Jupyter Notebook** | Exploratory Python work; GitHub Linguist reports it separately even though it is a notebook format rather than another language. |
-| 🐚 **Shell** | HPC/SLURM jobs and the glue between tools. It may not appear in the chart when it is not a repository's main language. |
-
-`PyTorch` · `PyTorch Geometric` · `scikit-learn` · `FoldX` · `PyMOL` · `AMBER/AmberTools` · `DESeq2` · `STAR` · `StringTie` · `Git` · `Linux`
+| 🐍 **Python** | Protein structures, machine learning, data pipelines, and experiments that started with *“this should be quick.”* |
+| 📊 **R** | Statistics, genomics, biological visualisation, and plots politely negotiating with `ggplot2`. |
+| 📓 **Jupyter Notebook** | Exploratory Python work; GitHub reports the notebook container separately from Python. |
+| 🐚 **Shell** | HPC jobs, SLURM, file wrangling, and remembering which job ID belonged to what. |
 
 </details>
 
-## What I'm exploring now 🔬
+---
 
-`protein structure` → `interaction surface` → `mutation / PTM` → `molecular motion` → `biological interpretation`
+## Tools I keep open suspiciously often 🧰
 
-- Building matched **wild-type → variant** structure lineages.
-- Comparing **surface-patch geometry** with graph representations for binding-affinity prediction.
-- Asking whether model signals agree with structural evidence and molecular-dynamics trajectories.
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,r,pytorch,sklearn,linux,git,github,vscode&perline=8" alt="Technical tools" />
+  </a>
+</p>
 
-<details>
-<summary><b>🧪 What “a good model” means to me</b></summary>
+<p align="center"><sub>Frequently accompanied by <code>PyTorch Geometric</code> · <code>Biopython</code> · <code>PyMOL</code> · <code>FoldX</code> · <code>AMBER / AmberTools</code> · <code>DESeq2</code> · <code>STAR</code> · <code>SLURM</code></sub></p>
 
-A good score is welcome; a believable reason is better. I care about traceable data, leakage-resistant evaluation, partner-swap symmetry where appropriate, and inspecting the cases where a model is confidently strange.
-
-</details>
+---
 
 ## Selected projects 🚀
 
-### [Protein Surface Affinity](https://github.com/Ci-yo/SURF-2025-Protein-Surface-Affinity)
+### 🧬 [Protein Surface Affinity](https://github.com/Ci-yo/SURF-2025-Protein-Surface-Affinity)
 
-A representation study for protein–protein binding: MaSIF-inspired surface patches meet an AttentiveFP graph comparator. The next chapter follows matched mutations and PTMs through structure and simulation.
+Exploring protein interactions through **molecular surfaces and structural representations**.
 
-| Project | The short version |
-|---|---|
-| **[Tumour Microenvironment Explorer](https://github.com/Ci-yo/BIO215_Capstone_geneTMEpredict)** | An R Shiny workflow for exploration, batch prediction, model comparison, and input perturbation. <br><br> <a href="https://xi-yo.shinyapps.io/TME_2255737/"><img src="https://img.shields.io/badge/try_the-Shiny_app-276DC3?style=flat-square&logo=rstudio&logoColor=white" alt="Open live Shiny app" /></a> |
-| **[Global River Methane Drivers](https://github.com/Ci-yo/SURF-2024-River-Methane-Drivers)** | A coordinate atlas and reproducible exploration of the geographic and hydrological companions of river methane flux. |
-| **[Arabidopsis RNA-seq](https://github.com/Ci-yo/BIO211_CW2_RNAseq)** | A journey from raw reads to differential expression and biological interpretation—with quality checks at every stop. |
-| **[Palm Skin Microbiome](https://github.com/Ci-yo/BIO211_CW3_Microbiome)** | Community structure, diversity, and biological questions, assembled as a reproducible metagenomic story. |
+It started with:
 
-<details>
-<summary><b>🧬 Earlier research detour: m6A</b></summary>
+> *Can a surface representation learn binding?*
 
-A SURF project introduced me to cross-technology m6A evidence, calibration, domain shift, and careful validation. A related implementation is the **[m6A Site Prediction](https://github.com/Ci-yo/BIO215_P3_m6APrediction)** project.
+and gradually became:
 
-</details>
+> *Okay... but what exactly did the model learn?*
+
+### 🎛️ [Tumour Microenvironment Explorer](https://github.com/Ci-yo/BIO215_Capstone_geneTMEpredict)
+
+An interactive **R Shiny** workflow for biological data exploration, prediction, model comparison, and input perturbation.
+
+**[→ Try the Shiny app](https://xi-yo.shinyapps.io/TME_2255737/)**
+
+### 🌍 [Global River Methane Drivers](https://github.com/Ci-yo/SURF-2024-River-Methane-Drivers)
+
+A reproducible exploration of geographic, hydrological, and environmental patterns associated with methane across rivers and streams.
+
+Also the project that convinced me quantitative methods become much more interesting when there is a real scientific question hiding behind the numbers.
+
+### 🌱 [Arabidopsis RNA-seq](https://github.com/Ci-yo/BIO211_CW2_RNAseq)
+
+From raw reads to expression changes and biological interpretation—with enough QC checkpoints to keep everyone reasonably calm.
+
+### 🦠 [Palm Skin Microbiome](https://github.com/Ci-yo/BIO211_CW3_Microbiome)
+
+Microbial community structure, diversity, multivariate statistics, and another reminder that biological data rarely arrive looking cooperative.
+
+---
+
+## A few things research keeps teaching me 🧠
+
+`good model ≠ good benchmark`
+
+`high score ≠ biological understanding`
+
+`reproducible > "it worked on my machine"`
+
+`strange cases are usually worth opening in PyMOL`
+
+`negative results are still results`
+
+---
 
 ## One non-computational variable 🏹
 
-I train in **barebow archery**. It turns out that “hold the form, inspect the miss, change one thing, repeat” works surprisingly well in both archery and research.
+I train in **barebow archery**.
+
+The workflow is suspiciously familiar:
+
+**hold the form → inspect the miss → change one thing → repeat**
+
+Apparently this is also a reasonable research strategy.
 
 ---
 
