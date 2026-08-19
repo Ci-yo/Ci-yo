@@ -1,41 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
-  <title id="title">Xiyao Chen — Structure, evidence, insight</title>
-  <desc id="desc">A protein surface flows through a computational trace into an RNA-like evidence helix.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">Xiyao Chen — structural bioinformatics</title>
+  <desc id="desc">A clean editorial banner with an abstract protein interface and contour lines.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#071823"/><stop offset="0.52" stop-color="#102037"/><stop offset="1" stop-color="#151632"/>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F7F4ED"/><stop offset="1" stop-color="#E9EEE9"/>
     </linearGradient>
-    <radialGradient id="surface"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#168a91"/></radialGradient>
-    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#bd8cff"/></linearGradient>
-    <filter id="soft"><feGaussianBlur stdDeviation="7"/></filter>
+    <linearGradient id="chainA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F5C5F"/><stop offset="1" stop-color="#2D8B83"/>
+    </linearGradient>
+    <linearGradient id="chainB" x1="1" y1="0" x2="0" y2="1">
+      <stop stop-color="#D26A3C"/><stop offset="1" stop-color="#E6A45D"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#173B3F" flood-opacity=".14"/>
+    </filter>
+    <clipPath id="frame"><rect width="1400" height="420" rx="28"/></clipPath>
   </defs>
-  <rect width="1400" height="500" rx="34" fill="url(#bg)"/>
-  <g opacity=".11" stroke="#d7f8f2" stroke-width="1">
-    <path d="M0 105H1400M0 250H1400M0 395H1400"/><path d="M210 0V500M700 0V500M1190 0V500"/>
-  </g>
-  <g transform="translate(58 74)" fill="url(#surface)">
-    <circle cx="103" cy="97" r="55"/><circle cx="180" cy="74" r="70"/><circle cx="250" cy="130" r="76"/>
-    <circle cx="123" cy="185" r="72"/><circle cx="215" cy="218" r="82"/><circle cx="298" cy="201" r="56"/>
-    <circle cx="76" cy="263" r="42"/><circle cx="301" cy="280" r="47"/>
-  </g>
-  <g fill="none" stroke="url(#trace)" stroke-linecap="round">
-    <path d="M390 278 C520 180 560 320 690 250 S870 183 1000 250" stroke-width="7" opacity=".85"/>
-    <path d="M405 310 C535 225 585 350 710 282 S870 235 985 285" stroke-width="2" stroke-dasharray="7 14" opacity=".55"/>
-  </g>
-  <g transform="translate(1020 60)" fill="none" stroke-width="5">
-    <path d="M35 18 C240 85 20 167 236 244 C38 319 226 390 42 430" stroke="#bd8cff"/>
-    <path d="M238 18 C34 85 254 167 38 244 C236 319 48 390 232 430" stroke="#5eead4"/>
-    <g stroke="#8899c4" stroke-width="3" opacity=".7">
-      <path d="M66 51L204 51M82 111L187 111M72 176L198 176M55 244L220 244M76 312L196 312M83 375L188 375M66 420L204 420"/>
+  <g clip-path="url(#frame)">
+    <rect width="1400" height="420" fill="url(#paper)"/>
+    <rect x="0" y="0" width="14" height="420" fill="#173B3F"/>
+    <g fill="none" stroke="#173B3F" stroke-opacity=".09" stroke-width="1.4">
+      <path d="M930-20c-60 73-10 128 67 145s149 1 198 71 22 152 88 221"/>
+      <path d="M977-34c-56 79-11 119 72 139s146 8 196 77 28 148 91 213"/>
+      <path d="M1027-44c-51 74-8 108 76 128s144 15 197 82 35 137 92 196"/>
+      <path d="M1081-48c-45 65-2 98 77 118s139 21 196 83 43 123 94 176"/>
     </g>
-  </g>
-  <circle cx="700" cy="250" r="7" fill="#ffffff"/><circle cx="700" cy="250" r="19" fill="#ffffff" opacity=".13" filter="url(#soft)"/>
-  <text x="700" y="103" text-anchor="middle" fill="#89a6b7" font-family="Segoe UI, Arial, sans-serif" font-size="17" letter-spacing="4.5">BIOINFORMATICS · XJTLU · BSc 2027</text>
-  <text x="700" y="174" text-anchor="middle" fill="#f5fbff" font-family="Segoe UI, Arial, sans-serif" font-size="53" font-weight="760">Xiyao Chen</text>
-  <text x="700" y="214" text-anchor="middle" fill="#c5d5e4" font-family="Segoe UI, Arial, sans-serif" font-size="22">Structural bioinformatics · Biomolecular ML · Statistical genomics</text>
-  <g transform="translate(502 326)">
-    <rect width="396" height="70" rx="18" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".12"/>
-    <text x="198" y="29" text-anchor="middle" fill="#91a6bd" font-family="Segoe UI, Arial, sans-serif" font-size="13" letter-spacing="3">RESEARCH COMPASS</text>
-    <text x="198" y="54" text-anchor="middle" fill="#f2f7ff" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="650">STRUCTURE → EVIDENCE → INSIGHT</text>
+    <g transform="translate(1010 46)" filter="url(#shadow)">
+      <path d="M58 35c54-48 147-34 175 32 18 41-11 68-4 102 8 39 62 48 51 97-13 60-110 71-162 44-42-22-31-63-68-91-41-31-90-19-96-70-5-43 54-67 104-114Z" fill="url(#chainA)"/>
+      <path d="M224 52c48-30 119-8 132 43 12 47-35 65-33 102 3 43 58 57 41 105-19 54-99 58-143 23-34-27-12-70-43-102-29-30-76-26-78-69-2-40 49-60 83-67 17-3 25-25 41-35Z" fill="url(#chainB)" fill-opacity=".94"/>
+      <g fill="#F7F4ED" fill-opacity=".82">
+        <circle cx="181" cy="103" r="5"/><circle cx="197" cy="135" r="4"/><circle cx="177" cy="166" r="6"/>
+        <circle cx="211" cy="193" r="4"/><circle cx="190" cy="225" r="5"/><circle cx="221" cy="249" r="4"/>
+      </g>
+      <path d="M178 86c38 44 12 69 25 105 9 24 31 38 29 75" fill="none" stroke="#FFF9EF" stroke-width="3" stroke-dasharray="4 9" stroke-linecap="round"/>
+    </g>
+    <g font-family="Segoe UI, Arial, sans-serif" fill="#173B3F">
+      <text x="82" y="84" font-size="15" font-weight="650" letter-spacing="4">BIOINFORMATICS · XJTLU · 2027</text>
+      <text x="78" y="173" font-size="68" font-weight="720" letter-spacing="-2">Xiyao Chen</text>
+      <text x="82" y="226" font-size="27" font-weight="520">structural bioinformatics</text>
+      <text x="82" y="264" font-size="27" font-weight="520">protein interfaces · biomolecular modelling</text>
+      <line x1="82" y1="312" x2="190" y2="312" stroke="#D26A3C" stroke-width="5"/>
+      <text x="82" y="352" font-size="17" letter-spacing="1.3" fill="#476367">SHAPE → PERTURBATION → MECHANISM</text>
+    </g>
+    <text x="1322" y="374" text-anchor="end" fill="#173B3F" fill-opacity=".5" font-family="Consolas, monospace" font-size="13">INTERFACE / 01</text>
   </g>
 </svg>

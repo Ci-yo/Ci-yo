@@ -1,78 +1,79 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="Xiyao Chen — Structure, evidence, insight" width="100%" />
+  <img src="assets/profile-banner.svg" alt="Xiyao Chen — structural bioinformatics and protein interfaces" width="100%" />
 </p>
 
 <p align="center">
-  <a href="mailto:Xiyao.Chen22@student.xjtlu.edu.cn"><img src="https://img.shields.io/badge/Academic_Email-16324F?style=flat-square&logo=gmail&logoColor=white" alt="Academic email" /></a>
-  <a href="https://xi-yo.shinyapps.io/TME_2255737/"><img src="https://img.shields.io/badge/Live_Shiny_App-276DC3?style=flat-square&logo=rstudio&logoColor=white" alt="Live Shiny app" /></a>
-  <a href="https://github.com/Ci-yo?tab=repositories"><img src="https://img.shields.io/badge/Research_Repositories-181717?style=flat-square&logo=github&logoColor=white" alt="Research repositories" /></a>
+  <a href="mailto:Xiyao.Chen22@student.xjtlu.edu.cn"><img src="https://img.shields.io/badge/academic_email-173B3F?style=flat-square&logo=gmail&logoColor=white" alt="Academic email" /></a>
+  <a href="https://github.com/Ci-yo?tab=repositories"><img src="https://img.shields.io/badge/research_repositories-24292F?style=flat-square&logo=github&logoColor=white" alt="Research repositories" /></a>
 </p>
 
-I am an undergraduate bioinformatics researcher at **Xi'an Jiaotong-Liverpool University (XJTLU)**, completing a BSc in Bioinformatics in 2027. I work where **protein structure**, **biomolecular machine learning**, and **statistical genomics** meet.
+I am an undergraduate bioinformatics researcher at **Xi'an Jiaotong-Liverpool University (XJTLU)**, completing a BSc in Bioinformatics in 2027. My main interest is **structural bioinformatics**: turning protein shape, interfaces, mutations, and molecular motion into testable computational representations.
 
-My research asks a recurring question:
+> **How does a small molecular perturbation become a measurable change at a protein interface?**
 
-> **What changes when biological structure or evidence is perturbed—and how can computation make that change measurable?**
+## Structural bioinformatics
 
-## Research compass
+My current work connects geometric learning with molecular simulation to study protein–protein interactions. I am especially interested in models that remain biologically interpretable when comparing a wild type with a mutation or post-translational modification.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+`structure` → `interface` → `perturbation` → `dynamics` → `interpretation`
 
-### 🧩 Protein interfaces & perturbations
+<a href="https://molstar.org/viewer/?pdb=5BXQ">
+  <img src="assets/structure-playground.svg" alt="Open the NTF2–RanGDP protein complex in the interactive Mol* viewer" width="100%" />
+</a>
 
-I study how mutations and post-translational modifications reshape protein–protein interactions.
+<p align="center"><sub>Click the structure card to rotate, select, and inspect a representative protein–protein complex in Mol*.</sub></p>
 
-`structure → surface representation → matched perturbation → affinity`
+## Research in motion
 
-Current themes include MaSIF-style surface learning, swap-invariant PPI models, matched WT–variant structure lineages, mutation/PTM effects, and molecular-dynamics interpretation.
+- Building matched **WT → variant** structure lineages for mutation and PTM analysis.
+- Comparing **surface-patch geometry** with graph representations for binding-affinity prediction.
+- Connecting learned interface signals to **molecular-dynamics trajectories** and biophysical interpretation.
 
-</td>
-<td width="50%" valign="top">
+<details>
+<summary><b>How I test a structural model</b></summary>
 
-### 🧬 m6A evidence & calibration
+I care about more than a headline metric. My workflow tracks data lineage, prevents information leakage, preserves partner-swap symmetry where appropriate, and compares learned signals with structural or simulation-based evidence.
 
-I benchmark how RNA-modification evidence behaves across technologies, families, and validation definitions.
+</details>
 
-`signals → held-out technology → calibrated integration → error analysis`
+## Selected research & builds
 
-Current themes include leave-one-technology/family-out evaluation, Bayesian evidence integration, chromosome-blocked validation, domain shift, and reproducible omics audits.
+### Protein Surface Affinity
 
-</td>
-</tr>
-</table>
+**A representation study for protein–protein binding:** MaSIF-inspired surface patches versus an AttentiveFP graph comparator, with matched wild-type and variant structures as the next step.
 
-## What I am working on
+[Explore the repository →](https://github.com/Ci-yo/SURF-2025-Protein-Surface-Affinity)
 
-- Building matched **WT → variant** protein-surface workflows for mutation and PTM effects.
-- Stress-testing **m6A evidence integration** under technology holdout, family holdout, and external validation.
-- Turning research analyses into small, auditable repositories with explicit assumptions and limitations.
-
-## Selected work
-
-| Project | Why it matters |
+| Project | Project story |
 |---|---|
-| **[Protein Surface Affinity](https://github.com/Ci-yo/SURF-2025-Protein-Surface-Affinity)** | A representation duel between MaSIF-style surface geometry and an AttentiveFP graph model. The retained test predictions reproduce **r = 0.815** for the surface model. |
-| **[Tumour Microenvironment Explorer](https://github.com/Ci-yo/BIO215_Capstone_geneTMEpredict)** · **[live app](https://xi-yo.shinyapps.io/TME_2255737/)** | An interactive R Shiny workflow for exploration, batch prediction, model comparison, and input perturbation—with validation and non-clinical guardrails. |
-| **[Global River Methane Drivers](https://github.com/Ci-yo/SURF-2024-River-Methane-Drivers)** | A GRiMeDB-derived coordinate atlas and reproducible analysis of geographic and hydrological companions of river CH₄ flux. |
-| **[m6A Site Prediction](https://github.com/Ci-yo/BIO215_P3_m6APrediction)** | A reproducible sequence- and context-aware classifier with model interpretation and clearly stated evaluation boundaries. |
-| **[Arabidopsis RNA-seq](https://github.com/Ci-yo/BIO211_CW2_RNAseq)** | An end-to-end workflow from QC and alignment through transcript assembly, differential expression, and GO enrichment. |
-| **[Palm Skin Microbiome](https://github.com/Ci-yo/BIO211_CW3_Microbiome)** | A reproducible metagenomic analysis connecting community structure, diversity, and interpretable biological questions. |
+| **[Tumour Microenvironment Explorer](https://github.com/Ci-yo/BIO215_Capstone_geneTMEpredict)** | An R Shiny workflow for exploration, batch prediction, model comparison, and input perturbation. <br><br> <a href="https://xi-yo.shinyapps.io/TME_2255737/"><img src="https://img.shields.io/badge/open_live_demo-276DC3?style=flat-square&logo=rstudio&logoColor=white" alt="Open live Shiny demo" /></a> |
+| **[Global River Methane Drivers](https://github.com/Ci-yo/SURF-2024-River-Methane-Drivers)** | A coordinate atlas and reproducible exploration of geographic and hydrological companions of river methane flux. |
+| **[Arabidopsis RNA-seq](https://github.com/Ci-yo/BIO211_CW2_RNAseq)** | An end-to-end route from read quality and alignment to differential expression and biological interpretation. |
+| **[Palm Skin Microbiome](https://github.com/Ci-yo/BIO211_CW3_Microbiome)** | A reproducible metagenomic analysis linking community structure and diversity to focused biological questions. |
 
-## Research toolkit
+<details>
+<summary><b>Earlier work: RNA modification & statistical genomics</b></summary>
 
-| Lens | Tools I use |
+A SURF project introduced me to cross-technology m6A evidence, calibration, domain shift, and careful validation. A related implementation is the **[m6A Site Prediction](https://github.com/Ci-yo/BIO215_P3_m6APrediction)** project.
+
+</details>
+
+<details>
+<summary><b>Research toolkit</b></summary>
+
+| Lens | Tools |
 |---|---|
-| **Modelling** | Python · PyTorch · PyTorch Geometric · scikit-learn · Random Forest |
+| **Modelling** | Python · PyTorch · PyTorch Geometric · scikit-learn |
 | **Structure** | MaSIF-style features · FoldX · PyMOL · AMBER/AmberTools · PDB utilities |
-| **Genomics** | R · DESeq2 · STAR · StringTie · m6A/epitranscriptomic workflows |
-| **Research engineering** | Linux · Git/GitHub · SLURM/HPC · Shiny · Quarto · reproducible audits |
+| **Genomics** | R · DESeq2 · STAR · StringTie · reproducible omics workflows |
+| **Research engineering** | Linux · Git/GitHub · SLURM/HPC · Shiny · Quarto |
 
-## Beyond the terminal
+</details>
 
-🏹 I train in **barebow archery**. The same habit carries into research: hold the form, inspect the miss, change one thing, and try again.
+## Away from the keyboard
+
+🏹 I train in **barebow archery**—a useful reminder that precision comes from repeatable form, honest error analysis, and changing one variable at a time.
 
 <p align="center">
-  <i>Interested in biological change—at the interface between structure, evidence, and computation.</i>
+  <i>Building computational ways to see what changes at a biological interface.</i>
 </p>
