@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" role="img" aria-labelledby="title">
-  <title id="title">Benchmarking bar chart with validation mark</title>
+  <title id="title">Evaluation and inference</title>
   <rect x="2" y="2" width="68" height="68" rx="16" fill="#F0F9FF" stroke="#0369A1" stroke-opacity=".18" stroke-width="2"/>
   <g fill="none" stroke="#0369A1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
     <path d="M17 54h39"/>

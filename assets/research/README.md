@@ -8,6 +8,6 @@ These five small SVGs were drawn specifically for this profile so the research f
 | `biomolecular-ml.svg` | Representation and geometric learning |
 | `molecular-modelling.svg` | Molecular modelling, forces, and dynamics |
 | `statistical-genomics.svg` | Statistical genomics and RNA-related work |
-| `benchmarking.svg` | Benchmarking, calibration, and data science |
+| `evaluation-inference.svg` | Benchmarking, calibration, uncertainty, and inference |
 
 The files do not embed third-party brand artwork. Software logos in the main profile are loaded separately through their respective badge/icon services.
