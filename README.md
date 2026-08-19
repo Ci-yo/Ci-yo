@@ -28,7 +28,7 @@ xiyao = {
 
 Not quite one field, not quite five either. These are the ideas that keep finding their way back into my projects.
 
-<table>
+<table width="100%">
 <tr>
 <td align="center" width="33%" valign="top">
   <img src="assets/research/protein-backbone.svg" width="56" alt="Stylised protein backbone" /><br><br>
@@ -48,7 +48,7 @@ Not quite one field, not quite five either. These are the ideas that keep findin
 </tr>
 </table>
 
-<table>
+<table width="100%">
 <tr>
 <td align="center" width="50%" valign="top">
   <img src="assets/research/statistical-genomics.svg" width="56" alt="DNA helix for statistical genomics" /><br><br>
