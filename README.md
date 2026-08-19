@@ -22,19 +22,50 @@ xiyao = {
   <a href="https://github.com/Ci-yo?tab=repositories"><img src="https://img.shields.io/badge/browse_the-lab_notebook-24292F?style=flat-square&logo=github&logoColor=white" alt="Research repositories" /></a>
 </p>
 
-## Languages currently in rotation 🔄
+## My research fingerprint 🧬
 
-These are not progress bars—GitHub has already suffered enough of those.
+<table>
+<tr>
+<td width="52%" valign="top">
 
-| Language | What I usually ask it to do |
+<h3>🔬 By field</h3>
+
+<p><strong>Core signal</strong><br>
+<code>structural bioinformatics</code> · <code>protein interfaces</code></p>
+
+<p><strong>Methods that keep appearing</strong><br>
+<code>geometric learning</code> · <code>molecular dynamics</code> · <code>statistical modelling</code></p>
+
+<p><strong>Research side quests</strong><br>
+<code>transcriptomics</code> · <code>microbiomes</code> · <code>environmental bioinformatics</code></p>
+
+<p><strong>Things I like to build</strong><br>
+<code>reproducible pipelines</code> · <code>interactive research tools</code></p>
+
+</td>
+<td width="48%" valign="top">
+
+<h3>💻 By code</h3>
+
+<a href="https://github.com/Ci-yo?tab=repositories">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Ci-yo&amp;theme=github_dark&amp;animation=load&amp;duration=2.4&amp;exclude_repos=mall" alt="Automatically detected languages across Ci-yo's public repositories" width="100%" />
+</a>
+
+<sub>Read automatically from my public repositories—so the fingerprint changes when the work changes.</sub>
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>🔎 Decode the language signal</b></summary>
+
+| Language / format | What it usually means in my repositories |
 |---|---|
 | 🐍 **Python** | Protein representations, machine learning, structural workflows, and data wrangling that was “definitely going to be quick.” |
 | 📊 **R** | Statistical genomics, biological visualisation, reproducible analysis, and Shiny applications. |
-| 🐚 **Shell** | Connecting tools, running jobs on HPC/SLURM, and persuading many files to behave like one workflow. |
-| 📝 **Markdown / R Markdown** | Turning an analysis into something another human—and future me—can actually follow. |
-
-<details>
-<summary><b>🧰 The tools usually sitting beside them</b></summary>
+| 📓 **Jupyter Notebook** | Exploratory Python work; GitHub Linguist reports it separately even though it is a notebook format rather than another language. |
+| 🐚 **Shell** | HPC/SLURM jobs and the glue between tools. It may not appear in the chart when it is not a repository's main language. |
 
 `PyTorch` · `PyTorch Geometric` · `scikit-learn` · `FoldX` · `PyMOL` · `AMBER/AmberTools` · `DESeq2` · `STAR` · `StringTie` · `Git` · `Linux`
 
