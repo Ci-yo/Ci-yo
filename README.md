@@ -14,7 +14,7 @@ I work across **structural bioinformatics, biomolecular machine learning, and st
 
 ## Research fingerprint 🧬
 
-<table width="100%">
+<table align="center">
 <tr>
 <td align="center" width="33%" valign="top">
   <img src="assets/research/protein-backbone.svg" width="56" alt="Stylised protein backbone" /><br><br>
@@ -34,7 +34,7 @@ I work across **structural bioinformatics, biomolecular machine learning, and st
 </tr>
 </table>
 
-<table width="100%">
+<table align="center">
 <tr>
 <td align="center" width="50%" valign="top">
   <img src="assets/research/statistical-genomics.svg" width="56" alt="DNA helix for statistical genomics" /><br><br>
