@@ -1,47 +1,40 @@
-# Hi, I'm Xiyao 👋
+<h1 align="center">Hi, I'm Xiyao 👋</h1>
 
-### Bioinformatics undergraduate @ XJTLU · graduating in 2027
+<p align="center"><b>Bioinformatics undergraduate @ Xi’an Jiaotong-Liverpool University · graduating in 2027</b></p>
 
-I work across **structural bioinformatics, biomolecular machine learning, and statistical genomics**, with a particular interest in how local molecular perturbations propagate into measurable biological effects.
+<p align="center">I use code to ask molecular questions—then spend a suspicious amount of time checking whether the answer is real.</p>
 
-*Mostly proteins, models, and one terminal window too many.*
+<p align="center"><code>structural bioinformatics</code> · <code>biomolecular ML</code> · <code>molecular modelling</code> · <code>reproducible data science</code></p>
 
-<p>
-  <a href="mailto:Xiyao.Chen22@student.xjtlu.edu.cn"><img src="https://img.shields.io/badge/academic_email-173B3F?style=flat-square&logo=gmail&logoColor=white" alt="Academic email" /></a>
-  <a href="https://github.com/Ci-yo?tab=repositories"><img src="https://img.shields.io/badge/research_repositories-24292F?style=flat-square&logo=github&logoColor=white" alt="Research repositories" /></a>
-  <a href="https://xi-yo.shinyapps.io/TME_2255737/"><img src="https://img.shields.io/badge/live_Shiny_app-276DC3?style=flat-square&logo=rstudio&logoColor=white" alt="Live Shiny app" /></a>
+<p align="center">
+  <a href="https://ci-yo.github.io/"><img src="https://img.shields.io/badge/explore_the_research_trail-0B7285?style=flat-square&logo=safari&logoColor=white" alt="Research website" /></a>
+  <a href="https://ci-yo.github.io/cv/"><img src="https://img.shields.io/badge/public_CV-6D597A?style=flat-square&logo=readme&logoColor=white" alt="Public CV" /></a>
+  <a href="https://xi-yo.shinyapps.io/TME_2255737/"><img src="https://img.shields.io/badge/launch_Shiny_app-276DC3?style=flat-square&logo=rstudio&logoColor=white" alt="Live Shiny app" /></a>
+  <a href="mailto:Xiyao.Chen22@student.xjtlu.edu.cn"><img src="https://img.shields.io/badge/say_hello-173B3F?style=flat-square&logo=gmail&logoColor=white" alt="Academic email" /></a>
 </p>
 
 ## Research fingerprint 🧬
 
+<p align="center"><sub>Not separate lanes—more like landmarks that keep reappearing along the route.</sub></p>
+
 <table align="center">
 <tr>
-<td align="center" width="33%" valign="top">
+<td align="center" width="25%" valign="top">
   <img src="assets/research/protein-backbone.svg" width="56" alt="Stylised protein backbone" /><br><br>
   <b>Structural Bioinformatics</b><br>
   <sub>protein surfaces · PPI<br>variants · PTMs</sub>
 </td>
-<td align="center" width="33%" valign="top">
+<td align="center" width="25%" valign="top">
   <img src="assets/research/biomolecular-ml.svg" width="56" alt="Connected nodes for biomolecular machine learning" /><br><br>
   <b>Biomolecular ML</b><br>
-  <sub>representation learning<br>geometric learning</sub>
+  <sub>representation learning<br>geometric models</sub>
 </td>
-<td align="center" width="33%" valign="top">
+<td align="center" width="25%" valign="top">
   <img src="assets/research/molecular-modelling.svg" width="56" alt="Molecular modelling and force vectors" /><br><br>
   <b>Molecular Modelling</b><br>
   <sub>molecular dynamics<br>structure analysis</sub>
 </td>
-</tr>
-</table>
-
-<table align="center">
-<tr>
-<td align="center" width="50%" valign="top">
-  <img src="assets/research/statistical-genomics.svg" width="56" alt="DNA helix for statistical genomics" /><br><br>
-  <b>Statistical Genomics</b><br>
-  <sub>m6A · RNA<br>transcriptomics</sub>
-</td>
-<td align="center" width="50%" valign="top">
+<td align="center" width="25%" valign="top">
   <img src="assets/research/evaluation-inference.svg" width="56" alt="Bar chart and validation mark for evaluation and inference" /><br><br>
   <b>Evaluation &amp; Inference</b><br>
   <sub>benchmarking · calibration<br>uncertainty</sub>
@@ -50,42 +43,57 @@ I work across **structural bioinformatics, biomolecular machine learning, and st
 </table>
 
 <p align="center">
-  <code>reproducibility</code> · <code>uncertainty</code> · <code>fair evaluation</code> · <code>biological interpretation</code>
+  <code>shape</code> → <code>perturbation</code> → <code>prediction</code> → <code>did the model actually learn that?</code>
 </p>
 
-## Research questions 🔬
+## Selected waypoints 🧭
 
-### 🧩 Structure, interaction & molecular change
-
-I am interested in how local geometric and chemical perturbations reshape biomolecular interactions, and how structure-aware computational models can capture those changes.
-
-Mutations and PTMs are, after all, tiny edits with occasionally dramatic opinions.
-
-### 🧬 Genomics, evidence & evaluation
-
-My work also extends to statistical genomics and m6A epitranscriptomics, particularly cross-technology benchmarking and the problem of drawing reliable conclusions from heterogeneous evidence.
-
-I care as much about **what a model learned and how it was evaluated** as about the score it reports.
-
-## Languages & tools 💻
+<table>
+<tr>
+<td width="50%" valign="top">
+  <b>⌬ <a href="https://github.com/Ci-yo/SURF-2025-Protein-Surface-Affinity">Protein Surface Affinity</a></b><br>
+  <sub>Surface representations for protein interaction and molecular perturbation modelling.</sub>
+</td>
+<td width="50%" valign="top">
+  <b>🎛️ <a href="https://github.com/Ci-yo/BIO215_Capstone_geneTMEpredict">Tumour Microenvironment Explorer</a></b><br>
+  <sub>An interactive R/Shiny app for biological exploration and model comparison. <a href="https://xi-yo.shinyapps.io/TME_2255737/">Try it live ↗</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <b>≈ <a href="https://github.com/Ci-yo/SURF-2024-River-Methane-Drivers">Global River Methane Drivers</a></b><br>
+  <sub>Environmental patterns, hydrology, and the project that started the data-science trail.</sub>
+</td>
+<td width="50%" valign="top">
+  <b>± <a href="https://github.com/Ci-yo/BIO215_P3_m6APrediction">m6A Prediction Benchmark</a></b><br>
+  <sub>A useful detour into cross-technology benchmarking and fair evaluation.</sub>
+</td>
+</tr>
+</table>
 
 <p align="center">
-  <a href="https://github.com/stats-organization/github-stats-extended">
-    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ci-yo&layout=compact&langs_count=6&exclude_repo=mall&hide_border=true&theme=github_dark" alt="Language percentages across Ci-yo's public repositories" />
+  The repositories keep the technical record. The website tells the route.<br>
+  <a href="https://ci-yo.github.io/"><b>Explore the full research journey →</b></a>
+</p>
+
+## Current writing footprint 💻
+
+<p align="center">
+  <a href="https://ci-yo.github.io/projects/">
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ci-yo&layout=compact&langs_count=6&exclude_repo=mall&hide_border=true&theme=github_dark" alt="Automatically updated language percentages across Ci-yo's public repositories" />
   </a>
 </p>
 
-| Language / format | Usually found doing |
-|---|---|
-| 🐍 **Python** | Structural workflows · machine learning · data pipelines |
-| 📊 **R** | Statistical genomics · visualisation · reproducible analysis |
-| 📓 **Jupyter** | Exploratory modelling and analysis |
-| 🐚 **Shell** | HPC · SLURM · workflow glue |
+<p align="center">
+  <code>Python</code> structure · ML · pipelines &nbsp;│&nbsp;
+  <code>R</code> statistics · genomics · Shiny &nbsp;│&nbsp;
+  <code>Shell</code> HPC · SLURM · workflow glue
+</p>
 
-<p align="center"><sub>Repository composition, not a scientifically validated measurement of how well I speak Python.</sub></p>
+<p align="center"><sub>Automatically updated from public repositories—not a scientifically validated fluency test.</sub></p>
 
 <details>
-<summary><b>Research toolkit</b></summary>
+<summary><b>Open the research toolbox</b></summary>
 
 <br>
 
@@ -97,34 +105,6 @@ I care as much about **what a model learned and how it was evaluated** as about 
 
 </details>
 
-## Selected work 🚀
+## Away from the keyboard 🏹
 
-### 🧬 [Protein Surface Affinity](https://github.com/Ci-yo/SURF-2025-Protein-Surface-Affinity)
-
-Surface representations for protein interaction and molecular perturbation modelling.
-
-What began as *“Can a surface representation learn binding?”* gradually became *“What did the model actually learn?”*
-
-### 🎛️ [Tumour Microenvironment Explorer](https://github.com/Ci-yo/BIO215_Capstone_geneTMEpredict)
-
-Interactive R/Shiny application for biological exploration, perturbation, and model comparison. **[Launch the app →](https://xi-yo.shinyapps.io/TME_2255737/)**
-
-### 🌍 [Global River Methane Drivers](https://github.com/Ci-yo/SURF-2024-River-Methane-Drivers)
-
-Statistical analysis of environmental and hydrological patterns across global river methane observations.
-
-### 🌱 [Arabidopsis RNA-seq](https://github.com/Ci-yo/BIO211_CW2_RNAseq)
-
-Reproducible RNA-seq workflow from reads to differential expression and biological interpretation.
-
-### 🦠 [Palm Skin Microbiome](https://github.com/Ci-yo/BIO211_CW3_Microbiome)
-
-Microbial community analysis with diversity statistics and multivariate modelling.
-
-## Outside the terminal 🏹
-
-I shoot **barebow archery**.
-
-The feedback loop is suspiciously familiar:
-
-**hold → inspect → adjust → repeat**
+Barebow archery: **hold → inspect → adjust → repeat**. Suspiciously transferable.
