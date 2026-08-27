@@ -2,20 +2,20 @@
 
 <p align="center"><b>Bioinformatics undergraduate @ Xi’an Jiaotong-Liverpool University · graduating in 2027</b></p>
 
-<p align="center">I use code to ask molecular questions—then spend a suspicious amount of time checking whether the answer is real.</p>
+<p align="center">I study how molecular perturbations reshape biomolecular interactions—and how to tell whether a model learned the biology or the benchmark.</p>
 
-<p align="center"><code>structural bioinformatics</code> · <code>biomolecular ML</code> · <code>molecular modelling</code> · <code>reproducible data science</code></p>
+<p align="center"><i>I use code to ask molecular questions, then spend a suspicious amount of time checking whether the answer is real.</i></p>
+
+<p align="center"><code>structural bioinformatics</code> · <code>biomolecular ML</code> · <code>molecular modelling</code> · <code>reliable evaluation</code></p>
 
 <p align="center">
-  <a href="https://ci-yo.github.io/"><img src="https://img.shields.io/badge/explore_the_research_trail-0B7285?style=flat-square&logo=safari&logoColor=white" alt="Research website" /></a>
-  <a href="https://ci-yo.github.io/cv/"><img src="https://img.shields.io/badge/public_CV-6D597A?style=flat-square&logo=readme&logoColor=white" alt="Public CV" /></a>
-  <a href="https://xi-yo.shinyapps.io/TME_2255737/"><img src="https://img.shields.io/badge/launch_Shiny_app-276DC3?style=flat-square&logo=rstudio&logoColor=white" alt="Live Shiny app" /></a>
+  <a href="https://ci-yo.github.io/"><img src="https://img.shields.io/badge/research_portfolio-0B7285?style=flat-square&logo=safari&logoColor=white" alt="Research website" /></a>
+  <a href="https://ci-yo.github.io/assets/XiyaoChen_CV.pdf"><img src="https://img.shields.io/badge/full_CV-6D597A?style=flat-square&logo=readme&logoColor=white" alt="Full CV" /></a>
+  <a href="https://xi-yo.shinyapps.io/TME_2255737/"><img src="https://img.shields.io/badge/live_Shiny_app-276DC3?style=flat-square&logo=rstudio&logoColor=white" alt="Live Shiny app" /></a>
   <a href="mailto:Xiyao.Chen22@student.xjtlu.edu.cn"><img src="https://img.shields.io/badge/say_hello-173B3F?style=flat-square&logo=gmail&logoColor=white" alt="Academic email" /></a>
 </p>
 
 ## Research fingerprint 🧬
-
-<p align="center"><sub>Not separate lanes—more like landmarks that keep reappearing along the route.</sub></p>
 
 <table align="center">
 <tr>
@@ -42,44 +42,43 @@
 </tr>
 </table>
 
-<p align="center">
-  <code>shape</code> → <code>perturbation</code> → <code>prediction</code> → <code>did the model actually learn that?</code>
-</p>
+<p align="center"><code>shape</code> → <code>perturbation</code> → <code>prediction</code> → <code>did the model actually learn that?</code></p>
 
-## Selected waypoints 🧭
+## Selected research 🔬
 
 <table>
 <tr>
 <td width="50%" valign="top">
-  <b>⌬ <a href="https://github.com/Ci-yo/SURF-2025-Protein-Surface-Affinity">Protein Surface Affinity</a></b><br>
-  <sub>Surface representations for protein interaction and molecular perturbation modelling.</sub>
+  <b>⌬ <a href="https://github.com/Ci-yo/SURF-2025-Protein-Surface-Affinity">Protein Surface Representation &amp; Interaction Prediction</a></b><br>
+  <sub>MaSIF-inspired surface representations for PPI and affinity modelling, compared with graph-based alternatives.</sub><br><br>
+  <code>937 public predictions</code> <code>Pearson r 0.815</code>
 </td>
 <td width="50%" valign="top">
-  <b>🎛️ <a href="https://github.com/Ci-yo/BIO215_Capstone_geneTMEpredict">Tumour Microenvironment Explorer</a></b><br>
-  <sub>An interactive R/Shiny app for biological exploration and model comparison. <a href="https://xi-yo.shinyapps.io/TME_2255737/">Try it live ↗</a></sub>
+  <b>A⁶ <a href="https://ci-yo.github.io/projects/#m6a-benchmark">Cross-technology m6A Omics Benchmarking</a></b><br>
+  <sub>Hierarchical Bayesian integration, LOTO evaluation, error analysis, and orthogonal validation across heterogeneous m6A technologies.</sub><br><br>
+  <code>2.79M sites</code> <code>14 technologies</code>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
   <b>≈ <a href="https://github.com/Ci-yo/SURF-2024-River-Methane-Drivers">Global River Methane Drivers</a></b><br>
-  <sub>Environmental patterns, hydrology, and the project that started the data-science trail.</sub>
+  <sub>Environmental and hydrological patterns across a global river-methane dataset.</sub><br><br>
+  <code>5,029 sites</code> <code>24,024 concentrations</code> <code>8,205 fluxes</code>
 </td>
 <td width="50%" valign="top">
-  <b>± <a href="https://github.com/Ci-yo/BIO215_P3_m6APrediction">m6A Prediction Benchmark</a></b><br>
-  <sub>A useful detour into cross-technology benchmarking and fair evaluation.</sub>
+  <b>🎛️ <a href="https://xi-yo.shinyapps.io/TME_2255737/">Tumour Microenvironment Explorer</a></b><br>
+  <sub><b>Build / coursework:</b> an interactive R/Shiny interface for synthetic biological exploration, prediction, and model comparison.</sub><br><br>
+  <a href="https://github.com/Ci-yo/BIO215_Capstone_geneTMEpredict">model repository ↗</a>
 </td>
 </tr>
 </table>
 
-<p align="center">
-  The repositories keep the technical record. The website tells the route.<br>
-  <a href="https://ci-yo.github.io/"><b>Explore the full research journey →</b></a>
-</p>
+<p align="center">The repositories keep the technical record. The website connects the questions, evidence, and route.<br><a href="https://ci-yo.github.io/"><b>Explore the research portfolio →</b></a></p>
 
-## Current writing footprint 💻
+## Code footprint 💻
 
 <p align="center">
-  <a href="https://ci-yo.github.io/projects/">
+  <a href="https://github.com/Ci-yo">
     <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ci-yo&layout=compact&langs_count=6&exclude_repo=mall&hide_border=true&theme=github_dark" alt="Automatically updated language percentages across Ci-yo's public repositories" />
   </a>
 </p>
@@ -90,21 +89,18 @@
   <code>Shell</code> HPC · SLURM · workflow glue
 </p>
 
-<p align="center"><sub>Automatically updated from public repositories—not a scientifically validated fluency test.</sub></p>
+<p align="center"><sub>Repository composition—not a scientifically validated fluency test.</sub></p>
 
 <details>
 <summary><b>Open the research toolbox</b></summary>
-
 <br>
-
 <p align="center">
   <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,r,pytorch,sklearn,linux,git,github,vscode&perline=8" alt="Technical tools" /></a>
 </p>
-
 <p align="center"><sub><code>PyTorch Geometric</code> · <code>Biopython</code> · <code>PyMOL</code> · <code>FoldX</code> · <code>AMBER / AmberTools</code> · <code>DESeq2</code> · <code>STAR</code> · <code>SLURM</code></sub></p>
-
 </details>
 
 ## Away from the keyboard 🏹
 
-Barebow archery: **hold → inspect → adjust → repeat**. Suspiciously transferable.
+Barebow archery · **30 m provincial silver · club bronze**<br>
+`hold → inspect → adjust → repeat` — suspiciously transferable.
